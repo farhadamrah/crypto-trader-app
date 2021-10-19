@@ -1,0 +1,17 @@
+@import '../../../assets/styles/base/variables';
+
+.configuration {
+    @apply rounded-xl border border-dashed border-gray-400 p-5 flex justify-center items-center cursor-pointer w-full;
+
+    @media screen and (min-width: map-get($breakpoints, 'sm')) {
+        width: calc(50% - 0.75rem);
+    }
+
+    @media screen and (min-width: map-get($breakpoints, 'lg')) {
+        width: calc(33.3% - 1rem);
+    }
+
+    @media screen and (min-width: map-get($breakpoints, '2xl')) {
+        width: calc(25% - 1.25rem);
+    }
+}

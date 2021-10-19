@@ -1,0 +1,11 @@
+.primaryButton {
+    @apply py-2 p-6 rounded text-white bg-indigo-600 hover:bg-indigo-700 font-medium hover:shadow-md;
+}
+
+.disabledPrimaryButton {
+    @apply bg-gray-500 pointer-events-none;
+}
+
+.linkButton {
+    @apply text-indigo-500 font-medium;
+}

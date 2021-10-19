@@ -1,0 +1,25 @@
+@import '../../../assets/styles/base/variables';
+
+.configuration {
+    @apply bg-white flex flex-col justify-between rounded-xl shadow p-5 w-full;
+
+    @media screen and (min-width: map-get($breakpoints, 'sm')) {
+        width: calc(50% - 0.75rem);
+    }
+
+    @media screen and (min-width: map-get($breakpoints, 'lg')) {
+        width: calc(33.3% - 1rem);
+    }
+
+    @media screen and (min-width: map-get($breakpoints, '2xl')) {
+        width: calc(25% - 1.25rem);
+    }
+}
+
+.activateButton {
+    @apply bg-green-600 hover:bg-green-800;
+}
+
+.deactivateButton {
+    @apply bg-red-600 hover:bg-red-800;
+}

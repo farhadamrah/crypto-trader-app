@@ -1,0 +1,5 @@
+.container {
+    @apply flex items-center flex-col w-full pointer-events-none fixed;
+
+    z-index: 99999;
+}
